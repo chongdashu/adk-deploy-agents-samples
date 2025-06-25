@@ -2,7 +2,7 @@
 
 This repository contains sample agents and scripts for deploying them using the Agent Development Kit (ADK).
 
-> 📺 You can watch the accompanying [YouTube Video](https://www.youtube.com/watch?v=s6-Ofu-uu2k).
+> 📺 You can watch the accompanying [YouTube Video](https://www.youtube.com/watch?v=NEhWsMUz3ro).
 
 ## Related Resources
 
@@ -17,12 +17,12 @@ For a comprehensive **crash course** on Google ADK covering Agent2Agent (A2A) Pr
 I have compiled a complete toolkit for building production-ready ADK agents, including:
 
 - ✅ Full source code for agent development using ADK, Agent2Agent and MCP
-- ✅ ADK cheat sheets
+- ✅ Complete documentation, lesson plans and cheat sheets for working with the ADK.
+- ✅ Handy scripts for deploying ADK agents (**relevant to this repository!**)
 - ✅ Included `.cursor/rules` for use with AI code editors
 - ✅ Comprehensive pytest test suite
-- ✅ Step-by-step lesson plan
 
-> 🚀 **Get it now:** [chongdashu.gumroad.com/l/adk-builder-pack-1](https://chongdashu.gumroad.com/l/adk-builder-pack-1)
+> 🚀 **Get it now:** [ADK Builder Pack](https://gum.co/u/h9uqww5i1)
 
 ## ☕ Support Me
 
