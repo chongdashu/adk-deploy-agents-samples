@@ -97,14 +97,7 @@ touch agents/__init__.py
 
 The `gcloud run deploy --source` command looks for a `Dockerfile` in the directory you point it to. We need to create one from our `Dockerfile.template`.
 
-Manually open the `../Dockerfile.template` file, replace the `__AGENT_DIR__` placeholder with `multitool_agent`, and save it as `Dockerfile` inside your `temp_staging` directory.
-
-Alternatively, you can use `sed`:
-
-```bash
-# From within the temp_staging directory
-sed "s|__AGENT_DIR__|multitool_agent|g" ../Dockerfile.template > ./Dockerfile
-```
+You will need to manually create the `Dockerfile` from `Dockerfile.template`. Open `../Dockerfile.template`, replace the `__AGENT_DIR__` placeholder with `multitool_agent`, and save the new file as `Dockerfile` inside the `temp_staging` directory.
 
 Your `temp_staging` directory should now look like this:
 
@@ -145,8 +138,6 @@ Once the deployment is successful, you can remove the temporary staging director
 ```bash
 rm -rf temp_staging
 ```
-
-This script handles the creation of the temporary directory, copying files, generating the Dockerfile, and running the `gcloud` deploy command, significantly simplifying the workflow.
 
 ### A Note on Interactive Prompts
 
